@@ -8,7 +8,7 @@ my_new_hash = {}
         if my_new_hash[name]
           #my_new_hash
         else
-          binding.pry
+          #binding.pry
 
           my_new_hash[name] = {type: value, style: [style_name]}
         #  binding.pry
