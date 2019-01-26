@@ -6,7 +6,7 @@ my_new_hash = {}
     sub_languages.each do |name, type_data|
       type_data.each do |key, value|
         if my_new_hash[name]
-          #my_new_hash
+          my_new_hash[name][:style] << style_name
         else
           #binding.pry
 
