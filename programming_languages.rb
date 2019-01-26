@@ -10,6 +10,7 @@ my_new_hash = {}
         else
           binding.pry
           my_new_hash[:name] = {type: value, style: [style_name]}
+        end
 
       end
     end
