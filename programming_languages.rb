@@ -11,7 +11,6 @@ my_new_hash = {}
           binding.pry
           my_new_hash[:name] = {type: value, style: [style_name]}
         end
-
       end
     end
   end
